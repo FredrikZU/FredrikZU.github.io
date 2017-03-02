@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Fredrik Årdal Zurcher RNS</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+	<style>p.indent{ padding-left: 2.8em }</style>
+  </head>
+  <body class="template">
+    
+
+   
+   <p><center><a href="http://www.romsenter.no/">
+<img border="0" alt="RNS" src="TemplateData/RNSlogo1.png" width="320" height="103"> 
+</center></a></p>
+   
+   
+   
+ <p>  WebGL app om solsystemet jeg laget i forbindelse med en søknad.</p>
+   
+ <p>  Steg1: Gjenskapte logoen til Norsk romsenter fra bunnen av og la på nye farger.</p>
+   
+ <p>  Steg2: Appen skrev jeg i C++ og fungerer gjennom nettleseren ved WebGL. En enkel app hvor man går rundt i Solsystemet.</p>
+   
+<p>   Planetene er i riktig relativ størrelse og bruker riktig relativ tid i omløpet rundt solen.</p>
+   
+ <p>  1 sek i appen = 3 måneder på jorden.</p>
+   
+   
+   
+ <p>  Man benytter piltastene eller WASD for å bevege seg rundt. Bruk SHIFT for å gå fortere. Bruk musen for å se deg rundt. </p>
+   
+  
+ <p>  Se på en planet og det dukker opp noen fakta nederst i høyre hjørne.</p>
+   
+    <p><b> OBS ER IKKE LAGET TIL MOBIL PLATTFORM. ER IKKE OPTIMALISERT, MEN SKAL FUNGERE GREIT PÅ DE FLESTE DATAMASKINER</b></p>
+    <p><b>APPEN KJØRER I NETTLESEREN DIN. KAN OGSÅ LAGE APPER TIL ANDRE PLATTFORMER</p>
+   
+   <p>Sitter du ikke ved en PC kan du se digitalt opptak fra appen. <a href="https://www.youtube.com/watch?v=B2BtFo-kQOI&t=31s">Trykk her for digitalt opptak fra appen.</a></p>
+   
+   
+   
+  
+  <p>&emsp;  </p>
+  
+   <center><p><font size="16">Trykk på K for fullskjerm. Trykk ESC for å avslutte</font></p></center> 
+  
+  
+<p><a href="index.html">Gå Tilbake</a></p>
+  
+  <p>&emsp;  </p>
+   <p>&emsp;  </p>
+
+  
+  
+  
+  
+  
+
+  <p class="indent">  
+    </p>
+                     
+   <p>
+  
+	<center><canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"height="60px" width="96px"  "></canvas></center>
+	</p>
+   
+  
+    
+
+   
+    
+ 
+   
+    
+    <script type='text/javascript'>
+	
+	
+	
+	
+	
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/BuildInter.data",
+    codeUrl: "Release/BuildInter.js",
+    memUrl: "Release/BuildInter.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+  </body>
+</html>
